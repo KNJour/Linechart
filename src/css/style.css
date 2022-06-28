@@ -1,0 +1,28 @@
+pre {
+    font-size: 1.5rem;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.tick line{
+    stroke: #C0C0BB
+}
+
+.tick text {
+    fill: rgb(94, 62, 2);
+}
+
+.marks circle {
+    fill: rgb(105, 6, 2);
+}
+.marks path {
+    stroke: rgb(105, 6, 2);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap:round;
+}
+
+.axisLabel {
+    font-size:2.2em;
+}
